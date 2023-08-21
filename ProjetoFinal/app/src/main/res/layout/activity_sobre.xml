@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAD8DE"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.SobreActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:text="Aplicação desenvolvida por Elisabete Gonçalves"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#9E063A"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:padding="45dp"
+        android:text="Elementos acrescentados: SplashScreen, Vector Asset, Audio"
+        android:textAlignment="center"
+        android:textColor="#9E063A"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Auto-Avaliação: 15 valores"
+        android:textAlignment="center"
+        android:textColor="#9E063A"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_voltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="100dp"
+        android:backgroundTint="#E64078"
+        android:padding="10dp"
+        android:text="Voltar" />
+
+</LinearLayout>
